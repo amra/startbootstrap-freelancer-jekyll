@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'startbootstrap/freelancer/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-startbootstrap-freelancer"
-  spec.version       = 0.1.20180130
+  spec.version       = "0.1.20180130"
   spec.authors       = ["Marek Hudik"]
   spec.email         = ["marek@hudik.cz"]
   spec.summary       = "gem for theme startbootstrap-freelancer for Jekyll"
